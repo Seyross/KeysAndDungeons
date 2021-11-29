@@ -1,5 +1,7 @@
 {
     "item.keys_dungeons.key": "Key",
     "item.keys_dungeons.boss_key": "Boss key",
-    "item.keys_dungeons.light_door": "Light door"
+    "item.keys_dungeons.light_door": "Light door",
+
+    "itemGroup.keys_dungeons.general": "Keys And Dungeons"
 }

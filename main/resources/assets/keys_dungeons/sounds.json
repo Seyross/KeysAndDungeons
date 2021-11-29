@@ -1,0 +1,17 @@
+{
+    "light_door_closes": {
+        "sounds": [
+            "keys_dungeons:light_door_close_1",
+            "keys_dungeons:light_door_close_2",
+            "keys_dungeons:light_door_close_3"
+        ]
+    },
+    "light_door_opens": {
+        "sounds": [
+          "keys_dungeons:light_door_open_1",
+          "keys_dungeons:light_door_open_2",
+          "keys_dungeons:light_door_open_3"
+        ]
+      }
+  }
+

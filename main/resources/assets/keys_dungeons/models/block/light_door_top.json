@@ -1,7 +1,7 @@
 {
-  "parent": "keys_dungeons:block/light_door_top",
+  "parent": "minecraft:block/door_top",
   "textures": {
     "top": "keys_dungeons:block/light_door_top",
     "bottom": "keys_dungeons:block/light_door_bottom"
   }
-}
+} 
