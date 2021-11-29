@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "keys_dungeons",
+  "version": "1.17.1",
+
+  "name": "Keys and Dungeons",
+  "description": "Explore terrifying dungeons and earn mighty loots !",
+  "authors": [
+    "Seyross"
+  ],
+  "contact": {
+
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/keys_dungeons/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "seyross.keys_dungeons.KeysAndDungeons"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
