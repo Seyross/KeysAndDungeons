@@ -1,7 +1,9 @@
 package seyross.keys_dungeons;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
@@ -23,12 +25,14 @@ public class KeysAndDungeons implements ModInitializer {
 	
 	public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
 		new Identifier(MOD_ID, "general"),
-		() -> new ItemStack(ModItems.LIGHT_DOOR_ITEM));
+		() -> new ItemStack(ModItems.BOSS_KEY));
 
 	@Override
 	public void onInitialize() {
 		ModItems.registerItems();
 		ModBlocks.registerBlock();
 		ModSounds.registerSounds();
+		
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_DOOR, RenderLayer.getCutout());
 	}
 }

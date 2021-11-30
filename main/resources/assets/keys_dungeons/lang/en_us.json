@@ -3,5 +3,9 @@
     "item.keys_dungeons.boss_key": "Boss key",
     "item.keys_dungeons.light_door": "Light door",
 
-    "itemGroup.keys_dungeons.general": "Keys And Dungeons"
+    "block.keys_dungeons.light_door": "Light door",
+
+    "itemGroup.keys_dungeons.general": "Keys And Dungeons",
+    "subtitles.keys_dungeons.light_door_closes": "Door locked",
+    "subtitles.keys_dungeons.light_door_opens": "Door unlocked"
 }

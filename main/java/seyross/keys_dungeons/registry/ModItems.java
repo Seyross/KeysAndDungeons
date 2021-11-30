@@ -17,6 +17,5 @@ public class ModItems {
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(KeysAndDungeons.MOD_ID, "key"), KEY);
 		Registry.register(Registry.ITEM, new Identifier(KeysAndDungeons.MOD_ID, "boss_key"), BOSS_KEY);
-		Registry.register(Registry.ITEM, new Identifier(KeysAndDungeons.MOD_ID, "light_door"), LIGHT_DOOR_ITEM);
     }
 }

@@ -1,5 +1,6 @@
 {
     "light_door_closes": {
+        "subtitle": "subtitles.keys_dungeons.light_door_closes",
         "sounds": [
             "keys_dungeons:light_door_close_1",
             "keys_dungeons:light_door_close_2",
@@ -7,6 +8,7 @@
         ]
     },
     "light_door_opens": {
+        "subtitle": "subtitles.keys_dungeons.light_door_opens",
         "sounds": [
           "keys_dungeons:light_door_open_1",
           "keys_dungeons:light_door_open_2",
