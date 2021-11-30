@@ -1,5 +1,5 @@
 # KeysAndDungeons
 
 /!\ WIP
-Find and craft new keys to unlock mighty loots !
+Find and craft keys to unlock mighty loots !
 You will maybe encounter some dangers too...
